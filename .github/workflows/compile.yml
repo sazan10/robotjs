@@ -13,10 +13,10 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: 8ae87a91f06f49559f0db387bc2bd1ea01419880
-    - name: Set up Node.js 16
+    - name: Set up Node.js 14
       uses: actions/setup-node@v3
       with:
-        node-version: 16
+        node-version: 14
     - name: Install deps
       run: |
         sudo apt-get install xorg-dev
